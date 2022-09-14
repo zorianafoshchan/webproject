@@ -1,11 +1,136 @@
 *{
-    box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 
 .container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 10px;
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 10px;
 }
 
+.box {
+ width: 1920px;
+ height: 593px;
+ background-color: #000;
+}
+
+.logo {
+ margin-right: 50px;
+}
+
+.zoomlink {
+ color: #fff;
+ text-decoration: none;
+ font-family: sans-serif;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 22px;
+ line-height: 33px;
+ letter-spacing: 0.04em;
+ position: absolute;
+ text-align: left;
+ max-width: 150px;
+ margin-left: 50px;
+}
+
+.upperpart {
+ padding: 74px 776px 0px;
+}
+
+.themiddle {
+ padding-top: 95px;
+}
+
+.form {
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+}
+
+.subscribe {
+ color: #B2B3CF;
+ font-family: sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 26px;
+ line-height: 39px;
+ text-align: center;
+ letter-spacing: 0.04em;
+ /* padding: 252px 740px 302px 740px; */
+}
+
+.mail {
+ color: #9E9FAE;
+ font-family: sans-serif;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 30px;
+ letter-spacing: 0.04em;
+ padding: 15px 258px 15px 30px;
+ margin-right: 20px;
+ border: 1px solid #AAAABA;
+ border-radius: 80px;
+ width: 400px;
+}
+
+.sbscrb {
+ font-family: sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 22px;
+ line-height: 33px;
+ color: #fff;
+ border: 1px solid #DC5E74;
+ border-radius: 80px;
+ background: #DC5E74;
+ padding: 14px 34px 13px 34px;
+ width: 175px;
+ text-align: center;
+}
+
+.lowerpart {
+ margin-top: 96px;
+ justify-content: center;
+}
+
+.links {
+ display: flex;
+ justify-content: center;
+}
+
+.link {
+ text-decoration: none;
+ font-family: sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 22px;
+ line-height: 33px;
+
+ letter-spacing: 0.04em;
+ color: #B2B3CF;
+}
+
+li {
+ display: inline-block;
+ padding-right: 20px;
+}
+
+.img {
+ padding-top: 9px;
+}
+
+li+li+li+li+li {
+ padding-right: 0px;
+}
+
+.copyright {
+ color: #B2B3CF;
+ font-family: sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 22px;
+ line-height: 33px;
+ text-align: center;
+ margin-top: 20px;
+}
